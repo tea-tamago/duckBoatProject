@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BDA0B0462A49F7C900A00E9A /* duckBoatProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0B0452A49F7C900A00E9A /* duckBoatProjectApp.swift */; };
+		BD1D94402A4B2C030022C8EF /* financeCalculator1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1D943F2A4B2C030022C8EF /* financeCalculator1.swift */; };
 		BDA0B0482A49F7C900A00E9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA0B0472A49F7C900A00E9A /* ContentView.swift */; };
 		BDA0B04A2A49F7CB00A00E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA0B0492A49F7CB00A00E9A /* Assets.xcassets */; };
 		BDA0B04D2A49F7CB00A00E9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA0B04C2A49F7CB00A00E9A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD1D943F2A4B2C030022C8EF /* financeCalculator1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financeCalculator1.swift; sourceTree = SOURCE_ROOT; };
 		BDA0B0422A49F7C900A00E9A /* duckBoatProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duckBoatProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDA0B0452A49F7C900A00E9A /* duckBoatProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duckBoatProjectApp.swift; sourceTree = "<group>"; };
 		BDA0B0472A49F7C900A00E9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDA0B0492A49F7CB00A00E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA0B04C2A49F7CB00A00E9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		BDA0B0442A49F7C900A00E9A /* duckBoatProject */ = {
 			isa = PBXGroup;
 			children = (
-				BDA0B0452A49F7C900A00E9A /* duckBoatProjectApp.swift */,
+				BD1D943F2A4B2C030022C8EF /* financeCalculator1.swift */,
 				BDA0B0472A49F7C900A00E9A /* ContentView.swift */,
 				BDA0B0492A49F7CB00A00E9A /* Assets.xcassets */,
 				BDA0B04B2A49F7CB00A00E9A /* Preview Content */,
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1D94402A4B2C030022C8EF /* financeCalculator1.swift in Sources */,
 				BDA0B0482A49F7C900A00E9A /* ContentView.swift in Sources */,
-				BDA0B0462A49F7C900A00E9A /* duckBoatProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
