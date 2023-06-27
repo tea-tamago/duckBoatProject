@@ -9,14 +9,29 @@ import SwiftUI
 //comment
 
 struct ContentView: View {
+    @State private var japanButt = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack{
+            VStack{
+              Image("map")
+                    .resizable()
+                    .frame(width:350, height: 300)
+                Text("Where would you like to go?")
+                    .font(.title3)
+                    .fontWeight(.semibold)
+                    
+                Text("click the icon that fits the location that you wish to visit")
+                    .font(.subheadline)
+                    .multilineTextAlignment(.center)
+                Button{
+                    japanButt = false
+                }label: {
+                    Image(systemName: "duckIcon")
+                }
+                
+                
+            }
         }
-        .padding()
     }
 }
 
